@@ -37,7 +37,7 @@ Brain waves are usually divided into bandwidths:  alpha, beta, delta, and theta
 start_streaming function of Brain_waves object takes a callback function or list of functions. Every frame (if frame = 200, and record frequency = 200, every 1 second) magnitude of the specified band or list of bands is computed and is passed to the callback function as an argument in form : [channel1 amplitude, channel2 amplitude, ...channelx amplitude]
 If file_name is specified, data are saved in csv file.
 ```python
-import brain_waves
+import brain_waves_openbci
 from openbci.ganglion import OpenBCIGanglion #import OpenBCI_Python module
 
 eeg_device = OpenBCIGanglion()
@@ -58,7 +58,7 @@ Recorded data can by read and analyzed with read_csv_waves. Vizualization can be
 
 ```python
 import matplotlib.pyplot as plt
-import brain_waves as waves
+import brain_waves_openbci as waves
 
 number_of_channels = 4
 recording_frequency = 200
