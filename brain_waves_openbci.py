@@ -71,7 +71,7 @@ class Brain_waves:
     def read_csv_waves(self, file_name, band):
         eeg_data = pd.read_csv(file_name, sep=self.delim, header=None, index_col=False).values
         raw_data = eeg_data[:, 2:2 + self.channels_num].transpose()
-        max_time = eeg_data[:, 0][-1]
+        time_lenght = eeg_data[:, 0][-1] - eeg_data[:, 0][0]
         band_vals = self.analyze(raw_data, band)
-        time = np.linspace(0,max_time, len(band_vals[0]))
+        time = np.linspace(0,time_lenght, len(band_vals[0]))
         return band_vals, time
