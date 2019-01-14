@@ -24,7 +24,7 @@ Brain waves are usually divided into bandwidths:  alpha, beta, delta, and theta
 - ***Alpha***: In general, the alpha rhythm is the prominent EEG wave pattern of an adult who is awake but relaxed with eyes closed. Each region of the brain had a characteristic alpha rhythm but alpha waves of the greatest amplitude are recorded from the occipital and parietal regions of the cerebral cortex. In general, amplitudes of alpha waves diminish when subjects open their eyes and are attentive to external stimuli although some subjects trained in relaxation techniques can maintain high alpha amplitudes even with their eyes open.
 
 
-- ***Beta***: Beta rhythms occur in individuals who are alert and attentive to external stimuli or exert specific mental effort, or paradoxically, beta rhythms also occur during deep sleep, REM (Rapid Eye Movement) sleep when the eyes switch back and forth.  This does not mean that there is less electrical activity, rather that the ìpositiveî and ìnegativeî activities are starting to counterbalance so that the sum of the electrical activity is less.  Thus, instead of getting the wave-like synchronized pattern of alpha waves, desynchronization or alpha block occurs.  So, the beta wave represents arousal of the cortex to a higher state of alertness or tension.  It may also be associated with ìrememberingî or retrieving memories.
+- ***Beta***: Beta rhythms occur in individuals who are alert and attentive to external stimuli or exert specific mental effort, or paradoxically, beta rhythms also occur during deep sleep, REM (Rapid Eye Movement) sleep when the eyes switch back and forth.  This does not mean that there is less electrical activity, rather that the ‚Äúpositive‚Äù and ‚Äúnegative‚Äù activities are starting to counterbalance so that the sum of the electrical activity is less.  Thus, instead of getting the wave-like synchronized pattern of alpha waves, desynchronization or alpha block occurs.  So, the beta wave represents arousal of the cortex to a higher state of alertness or tension.  It may also be associated with ‚Äúremembering‚Äù or retrieving memories.
 
 
 
@@ -68,3 +68,4 @@ band_vals, time = br.read_csv_waves('data/data_test.csv', band)
 plt.plot(time, band_vals[0]) #plot first channel data
 plt.show()
 ```
+J.M.
