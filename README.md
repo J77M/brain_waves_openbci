@@ -1,6 +1,6 @@
 # Brain waves analyzer for OpenBci
 
-Bci tool for real time brain waves frequency analysis for [OpenBci](https://openbci.com/) eeg devices.
+Bci tool for real time brain waves frequency analysis for [OpenBCI](https://openbci.com/) eeg devices.
 #### Dependencies
 - numpy==1.14.3
 - pandas==0.22.0
